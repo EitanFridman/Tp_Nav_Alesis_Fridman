@@ -7,7 +7,6 @@ export default function ContactScreen({ navigation }) {
   const [phone, setPhone] = useState('');
 
   return (
-    // TouchableWithoutFeedback es para cerrar el teclado cuando toque afuera
     <TouchableWithoutFeedback onPress={() => Keyboard.dismiss()}>
       <View style={[styles.container, { backgroundColor: '#f9e2cd' }]}>
         <Text style={styles.text}>Ingrese su Nombre:</Text>
